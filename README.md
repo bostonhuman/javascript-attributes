@@ -5,3 +5,4 @@ The statements in this example use jQuery methods to change the class and id att
 ## Components that make the app run
 
 * The firt statement finds the third list and removes hot from the class attribute on that element. This is important to note because it affects the next statement.
+* The second statement selects all li elements whose class attrubute has a value of hot. It add a new class name called favorite. Because step 1 updated the third list item, this statement affects only the first two.
